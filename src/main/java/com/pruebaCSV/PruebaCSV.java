@@ -8,7 +8,7 @@ public class PruebaCSV
         /**
          * @author Pablo Federico Martín Luna
          */
-        //LectorCSV myReader = new LectorCSV();
-        //myReader.leeCSV("./datos/pokemon.csv");
+        LectorCSV myReader = new LectorCSV();
+        myReader.leeCSV("./datos/pokemon.csv");
     }
 }
